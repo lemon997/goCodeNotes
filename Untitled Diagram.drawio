@@ -1,1 +1,61 @@
-<mxfile host="app.diagrams.net" modified="2022-04-27T16:51:00.902Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="nsoPZLtp8j0h8jdeBPg6" version="17.1.0" type="github"><diagram name="Page-1" id="dd472eb7-4b8b-5cd9-a60b-b15522922e76">7ZhNj5swEIZ/DcdKgM1Hrkl3t5c9RdqevTCAtQZHxlmS/vraMHw1QWmkVtkDySEz7wwee54BRThkV55eFDsUrzIF4fhuenLId8f3PerG5scq506JKAq54ikmjcKe/wIUXVSPPIV6lqilFJof5mIiqwoSPdOYUrKZp2VSzKseWA4Xwj5h4lL9yVNdoOq57hj4ATwvsHQcYOCdJR+5kscK61Wygi5Ssn4ZTK0LlspmIpEnh+yUlLqzytMOhG1r37HuuueF6LBlBZX+mwtIRIHQMPYhJcQD+IYrfDJxxDZsjzWvoK4dPxRmzW3KP42ZWxOZd7opMgnh8fS576apa8AZZ9sUXMP+wBIbaczsGK3QpTCeZ8y2cWD35xpvaJB1UlYXQySRJU/QzmSln1nJhR21N1ApqxjKOFe2ta2/k0KqdkvEdcNNWzLjQkz0LLBfW1wr+QGTSNh+huNN+9w3DpSG00TCvr+ALEGrs0nBKCE4A3h7eDH6zThstJ+1YjJng8hwwPNh7ZG0MRD2dfA0MKfJWJDR9xg2HrsCfq/tDeK73sryFksazFnSS5ReeAXlIP5TlP4iymBFeS/KIHwoS7LIkqwsb7GMvDlL4j6UJV1kGa0sb7H0Nl+KZbDIMl5Z3mLpx3/89SEPZRkusvRXlrdYhv6XYhktsqQry3tZ0uihLONFluHK8t5n7H9ladzxnUUbm7wTIk+/AQ==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-28T11:03:06.093Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="VEp7cs8b-rO0KZnzdWov" version="17.1.0" type="github">
+  <diagram name="Page-1" id="dd472eb7-4b8b-5cd9-a60b-b15522922e76">
+    <mxGraphModel dx="813" dy="435" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="X2lmhWOeb0eCaGNSDXDb-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="X2lmhWOeb0eCaGNSDXDb-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="240" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X2lmhWOeb0eCaGNSDXDb-6" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;b&gt;amq.mysql.reduceInventory&lt;/b&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="X2lmhWOeb0eCaGNSDXDb-4">
+          <mxGeometry x="-0.1627" y="-1" relative="1" as="geometry">
+            <mxPoint x="9" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X2lmhWOeb0eCaGNSDXDb-1" value="&lt;font face=&quot;宋体&quot; style=&quot;font-size: 10px&quot;&gt;购买操作生产者&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X2lmhWOeb0eCaGNSDXDb-7" value="&lt;b&gt;reduce_inventory&lt;/b&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Times New Roman;fontSize=10;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="X2lmhWOeb0eCaGNSDXDb-2" target="X2lmhWOeb0eCaGNSDXDb-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X2lmhWOeb0eCaGNSDXDb-2" value="&lt;font face=&quot;Times New Roman&quot;&gt;mysql_inventory&lt;br&gt;交换机&lt;br&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="460" y="190" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="X2lmhWOeb0eCaGNSDXDb-3" value="购买操作消费者" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X2lmhWOeb0eCaGNSDXDb-11" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit ; font-size: 10px&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;Router Key:amq.mysql.reduceInventory&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="560" y="230" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="X2lmhWOeb0eCaGNSDXDb-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="X2lmhWOeb0eCaGNSDXDb-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="370" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X2lmhWOeb0eCaGNSDXDb-13" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;b&gt;delay_order&lt;/b&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="X2lmhWOeb0eCaGNSDXDb-12">
+          <mxGeometry x="-0.1627" y="-1" relative="1" as="geometry">
+            <mxPoint x="9" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X2lmhWOeb0eCaGNSDXDb-14" value="&lt;font face=&quot;宋体&quot; style=&quot;font-size: 10px&quot;&gt;延时购买操作生产者&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X2lmhWOeb0eCaGNSDXDb-15" value="&lt;b&gt;delayafter_order&lt;/b&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Times New Roman;fontSize=10;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="X2lmhWOeb0eCaGNSDXDb-16" target="X2lmhWOeb0eCaGNSDXDb-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X2lmhWOeb0eCaGNSDXDb-16" value="&lt;font face=&quot;Times New Roman&quot;&gt;mysql_order&lt;br&gt;交换机&lt;br&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="460" y="320" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="X2lmhWOeb0eCaGNSDXDb-17" value="延时购买操作消费者" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
